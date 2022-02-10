@@ -11,11 +11,11 @@ const AboutSection = () => {
       <Description>
         <motion.div>
           <Hide>
-            <motion.h2 variants={titleAnim}>Hi, I am Lilia</motion.h2>
+            <motion.h2 variants={titleAnim}>Hi, I am Lilly</motion.h2>
           </Hide>
           <Hide>
             <motion.h2 variants={titleAnim}>
-            <span>  Fullstack developer</span>
+            <span>  Web Developer</span>
             </motion.h2>
           </Hide>
           <Hide>

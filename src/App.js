@@ -4,12 +4,10 @@ import GlobalStyle from "./components/GlobalStyle";
 //Import Pages
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
-import OurWork from "./pages/OurWork";
+import Projects from "./pages/Projects";
 import Nav from "./components/Nav";
-import MovieDetail from "./pages/MovieDetail";
-//Router
+import ProjectDetail from "./pages/ProjectDetail";
 import { Switch, Route, useLocation } from "react-router-dom";
-//Animation
 import { AnimatePresence } from "framer-motion";
 
 function App() {
@@ -26,10 +24,10 @@ function App() {
             <AboutUs />
           </Route>
           <Route path="/work" exact>
-            <OurWork />
+            <Projects />
           </Route>
           <Route path="/work/:id">
-            <MovieDetail />
+            <ProjectDetail />
           </Route>
           <Route path="/contact">
             <ContactUs />
