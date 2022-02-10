@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/my-portfolio/static/js/main.7528f51b.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.7528f51b.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.20038942.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.20038942.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.8b00eace.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.8b00eace.js.map",
-    "static/js/2.071711c6.chunk.js": "/my-portfolio/static/js/2.071711c6.chunk.js",
-    "static/js/2.071711c6.chunk.js.map": "/my-portfolio/static/js/2.071711c6.chunk.js.map",
+    "static/js/2.cc49f0f6.chunk.js": "/my-portfolio/static/js/2.cc49f0f6.chunk.js",
+    "static/js/2.cc49f0f6.chunk.js.map": "/my-portfolio/static/js/2.cc49f0f6.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.a827ef16069f36c8e08b2f2881b5e383.js": "/my-portfolio/precache-manifest.a827ef16069f36c8e08b2f2881b5e383.js",
+    "precache-manifest.76c11a3b04640d6fc11163127c90842f.js": "/my-portfolio/precache-manifest.76c11a3b04640d6fc11163127c90842f.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
-    "static/js/2.071711c6.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.071711c6.chunk.js.LICENSE.txt",
+    "static/js/2.cc49f0f6.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.cc49f0f6.chunk.js.LICENSE.txt",
     "static/media/123.jpg": "/my-portfolio/static/media/123.37df2be3.jpg",
     "static/media/8678.jpg": "/my-portfolio/static/media/8678.a1d2ff7b.jpg",
     "static/media/adaptability.svg": "/my-portfolio/static/media/adaptability.ff49f2b7.svg",
@@ -22,26 +22,25 @@
     "static/media/eth.png": "/my-portfolio/static/media/eth.b77811b7.png",
     "static/media/figma.svg": "/my-portfolio/static/media/figma.e9ec51ee.svg",
     "static/media/git-icon.svg": "/my-portfolio/static/media/git-icon.3b50cd7b.svg",
-    "static/media/good-times2.jpg": "/my-portfolio/static/media/good-times2.e149f59c.jpg",
     "static/media/goodtimes-small.png": "/my-portfolio/static/media/goodtimes-small.169a9b3a.png",
     "static/media/javascript.svg": "/my-portfolio/static/media/javascript.0f7de9f1.svg",
     "static/media/money.svg": "/my-portfolio/static/media/money.d1749735.svg",
     "static/media/nextjs.svg": "/my-portfolio/static/media/nextjs.1d7ab179.svg",
     "static/media/nodejs.svg": "/my-portfolio/static/media/nodejs.4d2e6145.svg",
     "static/media/problem-solving.svg": "/my-portfolio/static/media/problem-solving.f656803a.svg",
-    "static/media/radio.png": "/my-portfolio/static/media/radio.774cc3e4.png",
-    "static/media/radio2.png": "/my-portfolio/static/media/radio2.d4439724.png",
     "static/media/react.svg": "/my-portfolio/static/media/react.ee3642c3.svg",
     "static/media/redux.svg": "/my-portfolio/static/media/redux.04d65ff8.svg",
     "static/media/sass.svg": "/my-portfolio/static/media/sass.6b0dea66.svg",
     "static/media/softskills.jpg": "/my-portfolio/static/media/softskills.75ae4215.jpg",
+    "static/media/soul-sound.png": "/my-portfolio/static/media/soul-sound.26ec8e1f.png",
+    "static/media/soul-sound2.png": "/my-portfolio/static/media/soul-sound2.f2c8fcae.png",
     "static/media/stress.svg": "/my-portfolio/static/media/stress.01aa9e4f.svg",
     "static/media/tailwindcss-icon.svg": "/my-portfolio/static/media/tailwindcss-icon.2413e925.svg",
     "static/media/teamwork.svg": "/my-portfolio/static/media/teamwork.8c795ad5.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8b00eace.js",
-    "static/js/2.071711c6.chunk.js",
-    "static/js/main.7528f51b.chunk.js"
+    "static/js/2.cc49f0f6.chunk.js",
+    "static/js/main.20038942.chunk.js"
   ]
 }

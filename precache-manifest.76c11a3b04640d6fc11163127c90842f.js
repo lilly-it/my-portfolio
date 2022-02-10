@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b7e1bdc72276fffc5d385e471a453d1",
+    "revision": "32beb25b890ce21614cab0dec8f880e7",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "35449dfb062a977279d4",
-    "url": "/my-portfolio/static/js/2.071711c6.chunk.js"
+    "revision": "178ee8078bca9beffedd",
+    "url": "/my-portfolio/static/js/2.cc49f0f6.chunk.js"
   },
   {
     "revision": "aa4100970f46d7e0ec2af84de3f2740b",
-    "url": "/my-portfolio/static/js/2.071711c6.chunk.js.LICENSE.txt"
+    "url": "/my-portfolio/static/js/2.cc49f0f6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cd618654b6e6c57314ac",
-    "url": "/my-portfolio/static/js/main.7528f51b.chunk.js"
+    "revision": "cea318609d0aa83ad5ec",
+    "url": "/my-portfolio/static/js/main.20038942.chunk.js"
   },
   {
     "revision": "f241adf7bba56ceeeb82",
@@ -68,10 +68,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/git-icon.3b50cd7b.svg"
   },
   {
-    "revision": "e149f59c6323b18f98e987cd564e1fc9",
-    "url": "/my-portfolio/static/media/good-times2.e149f59c.jpg"
-  },
-  {
     "revision": "169a9b3ae8eff8e916dc7711c7546c64",
     "url": "/my-portfolio/static/media/goodtimes-small.169a9b3a.png"
   },
@@ -96,14 +92,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/problem-solving.f656803a.svg"
   },
   {
-    "revision": "774cc3e445a109ea73b4c6de795ddb14",
-    "url": "/my-portfolio/static/media/radio.774cc3e4.png"
-  },
-  {
-    "revision": "d443972461457602463064bdb6ef5599",
-    "url": "/my-portfolio/static/media/radio2.d4439724.png"
-  },
-  {
     "revision": "ee3642c3800003b3007a7ce1c1554a0c",
     "url": "/my-portfolio/static/media/react.ee3642c3.svg"
   },
@@ -118,6 +106,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "75ae4215d3b848ab2562835f69fab287",
     "url": "/my-portfolio/static/media/softskills.75ae4215.jpg"
+  },
+  {
+    "revision": "26ec8e1f72ff7e4b85ef29dd2ecdac78",
+    "url": "/my-portfolio/static/media/soul-sound.26ec8e1f.png"
+  },
+  {
+    "revision": "f2c8fcae1da95fdba06d25a3bf953e36",
+    "url": "/my-portfolio/static/media/soul-sound2.f2c8fcae.png"
   },
   {
     "revision": "01aa9e4f91047f6d13a124ec94bf19ff",
