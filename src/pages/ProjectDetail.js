@@ -1,9 +1,4 @@
 import React, { useState, useEffect } from "react";
-import react from "../img/react.svg";
-import redux from "../img/redux.svg";
-import es6 from "../img/es6.svg";
-
-import tailwind from "../img/tailwindcss-icon.svg";
 import styled from "styled-components";
 import { useHistory } from "react-router-dom";
 import { ProjectState } from "../projectState";
@@ -13,21 +8,20 @@ import { pageAnimation } from "../animation";
 const ProjectDetail = () => {
   const history = useHistory();
   const url = history.location.pathname;
-  const [projects, setProjects] = useState(ProjectState);
+  const [projects] = useState(ProjectState);
   const [project, setProject] = useState(null);
 
   useEffect(() => {
     const currentProject = projects.filter(
       (stateProject) => stateProject.url === url
     );
+    console.log(currentProject);
     setProject(currentProject[0]);
   }, [projects, url]);
 
   const go = (link) => {
     window.open(link);
   };
-
-  console.log(project);
 
   return (
     <>
@@ -41,19 +35,20 @@ const ProjectDetail = () => {
           <HeadLine>
             <h2>{project.title}</h2>
             <div className="flex">
-              <img src={project.secondaryImg} alt="project" />
+              <img
+                src={project.secondaryImg}
+                className="preview"
+                alt="project"
+              />
               <div>
                 <Info>
                   <button
                     className="site button"
-                    onClick={() => go("https://lilly-it.github.io/soul-sound")}
+                    onClick={() => go(project.site)}
                   >
                     Visit Site
                   </button>
-                  <button
-                    className="button"
-                    onClick={() => go("https://github.com/lilly-it/soul-sound")}
-                  >
+                  <button className="button" onClick={() => go(project.code)}>
                     View Code
                   </button>
                 </Info>
@@ -61,7 +56,6 @@ const ProjectDetail = () => {
                 <div>
                   <h3 className="title">Technologies used:</h3>
                 </div>
-
                 <div className="flex-wrap">
                   {project.technologies.map((technology) => (
                     <Card>
@@ -85,7 +79,7 @@ const Details = styled(motion.div)`
   color: white;
 `;
 const HeadLine = styled.div`
-  min-height: calc(80vh-10px);
+  min-height: 80vh;
   padding-top: 20vh;
   padding-bottom: 10px;
   position: relative;
@@ -96,6 +90,14 @@ const HeadLine = styled.div`
     display: flex;
     flex-wrap: wrap;
   }
+  .preview {
+    object-fit: cover;
+    object-position: left;
+    width: 50vw;
+    height: 70vh;
+    margin: 0rem 2.5rem;
+  }
+
   .text {
     font-size: 1.2rem;
     width: 90%;
@@ -113,12 +115,6 @@ const HeadLine = styled.div`
     left: 50%;
     transform: translate(-50%, -10%);
   }
-  img {
-    width: 50%;
-    height: 65vh;
-    object-fit: contain;
-    padding: 0rem 3rem;
-  }
 `;
 const Info = styled.div`
   display: inline-block;
@@ -133,17 +129,20 @@ const Info = styled.div`
 `;
 const Card = styled.div`
   img {
-    height: 70px;
-    width: 130px;
+    height: 3rem;
+    width: 3rem;
   }
   .icon {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 4rem;
+    margin-right: 2rem;
     h3 {
       display: block;
       text-align: center;
       font-size: 1rem;
+      margin-top: 0.5rem;
     }
   }
 `;

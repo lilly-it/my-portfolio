@@ -1,6 +1,4 @@
 import React from "react";
-import diaphragm from "../img/diaphragm.svg";
-import money from "../img/money.svg";
 import teamwork from "../img/teamwork.svg";
 import softSkills from "../img/softskills.jpg";
 import communication from "../img/communication.svg";
@@ -10,7 +8,6 @@ import stress from "../img/stress.svg";
 import clock from "../img/clock.svg";
 import efficiency from "../img/efficiency.svg";
 import creativeness from "../img/creativeness.svg";
-import home2 from "../img/8678.jpg";
 import { About, Description, Image } from "../styles";
 import styled from "styled-components";
 import { scrollReveal } from "../animation";
@@ -104,7 +101,6 @@ const Services = styled(About)`
   }
 `;
 const Cards = styled.div`
- // display: flex;
   flex-wrap: wrap;
   @media (max-width: 1300px) {
     justify-content: center;
@@ -124,6 +120,8 @@ const Card = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 5rem;
+    margin-right: 5rem;
     h3 {
       display: block;
       text-align: center;

@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import courses from "../img/eth.png";
+import gamefinder from "../img/gamefinder.png";
 import soulSound from "../img/soul-sound.png";
-import goodtimes from "../img/goodtimes-small.png";
+import devBlogs from "../img/devblogs.png";
+import myPortfolio from "../img/my-portfolio.png";
 import { motion } from "framer-motion";
 import {
   sliderContainer,
@@ -19,6 +20,7 @@ import ScrollTop from "../components/ScrollTop";
 const Projects = () => {
   const [element, controls] = useScroll();
   const [element2, controls2] = useScroll();
+  const [element3, controls3] = useScroll();
   return (
     <Work
       style={{ background: "#fff" }}
@@ -35,38 +37,51 @@ const Projects = () => {
       </motion.div>
 
       <Project>
-        <h2 variants={fade}>Soul Sound</h2>
+        <motion.h2 variants={fade}>Soul Sound</motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
-        <Link to="/work/the-racer">
-          <img src={soulSound} alt="Soul Sound" />
+        <Link to="/projects/soul-sound">
+          <motion.img
+            className="image"
+            variants={photoAnim}
+            src={soulSound}
+            alt="Soul Sound"
+          />
         </Link>
       </Project>
-
       <Project
         ref={element}
         variants={fade}
         animate={controls}
         initial="hidden"
       >
-        <motion.h2 variants={fade}>The Athlete</motion.h2>
+        <motion.h2 variants={fade}>Gamefinder</motion.h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
-        <Link to="/work/the-athlete">
-          <Hide>
-            <motion.img variants={photoAnim} src={courses} alt="courses" />
-          </Hide>
+        <Link to="/projects/gamefinder">
+          <img variants={photoAnim} src={gamefinder} alt="gamefinder" />
         </Link>
       </Project>
-
       <Project
         ref={element2}
         variants={fade}
         animate={controls2}
         initial="hidden"
       >
-        <h2>Good Times</h2>
+        <h2>DevBlogs</h2>
         <motion.div variants={lineAnim} className="line"></motion.div>
-        <Link to="/work/good-times">
-          <img src={goodtimes} alt="goodtimes" />
+        <Link to="/projects/devblogs">
+          <img src={devBlogs} alt="devBlogs" />
+        </Link>
+      </Project>
+      <Project
+        ref={element3}
+        variants={fade}
+        animate={controls3}
+        initial="hidden"
+      >
+        <h2>My Portfolio</h2>
+        <motion.div variants={lineAnim} className="line"></motion.div>
+        <Link to="/projects/my-portfolio">
+          <img src={myPortfolio} alt="myPortfolio" />
         </Link>
       </Project>
       <ScrollTop />
@@ -75,7 +90,6 @@ const Projects = () => {
 };
 
 const Work = styled(motion.div)`
-  background: #f5f4f4 !important;
   min-height: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;
@@ -94,22 +108,21 @@ const Project = styled(motion.div)`
     background: #23d997;
     margin-bottom: 3rem;
   }
-  img {
+  img,
+  .image {
     width: 100%;
     height: 70vh;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: top;
     transition: all 0.4s;
     opacity: 1;
-    box-shadow: 10px 11px 42px -5px rgba(0,0,0,0.5);
+    box-shadow: 10px 11px 42px -5px rgba(0, 0, 0, 0.5);
     &:hover {
-      opacity: 0.85;
+      opacity: 0.95;
       transition: all 0.4s;
-      box-shadow: 5px 6px 27px -2px rgba(0,0,0,0.5);
+      box-shadow: 5px 6px 27px -2px rgba(0, 0, 0, 0.5);
     }
   }
-`;
-const Hide = styled.div`
-  overflow: hidden;
 `;
 
 const Frame1 = styled(motion.div)`

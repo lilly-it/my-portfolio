@@ -7,8 +7,8 @@ import tailwind from "../img/tailwindcss-icon.svg";
 import git from "../img/git-icon.svg";
 import nextjs from "../img/nextjs.svg";
 import sass from "../img/sass.svg";
-import nodejs from "../img/nodejs.svg";
-import figma from "../img/figma.svg";
+import html from "../img/html.svg";
+import styledComponents from "../img/styled-components.png";
 import home2 from "../img/8678.jpg";
 import { About, Description, Image } from "../styles";
 import styled from "styled-components";
@@ -20,18 +20,18 @@ const technologies1 = [
   { name: "ES6", img: es6 },
   { name: "React", img: react },
   { name: "Redux", img: redux },
-  { name: "TailwindCSS", img: tailwind },
+  { name: "Styled Components", img: styledComponents },
 ];
 
 const technologies2 = [
-  { name: "Git", img: git },
-  { name: "NextJS", img: nextjs },
+  { name: "HTML5", img: html },
   { name: "SASS", img: sass },
-  { name: "NodeJS", img: nodejs },
-  { name: "Figma", img: figma },
+  { name: "TailwindCSS", img: tailwind },
+  { name: "NextJS", img: nextjs },
+  { name: "Git", img: git },
 ];
 
-const ServicesSection = () => {
+const TechnologiesSection = () => {
   const [element, controls] = useScroll();
   return (
     <>
@@ -96,21 +96,23 @@ const Cards = styled.div`
   }
 `;
 const Card = styled.div`
-  margin-right: 40px;
-  margin-bottom: 70px;
+  margin-bottom: 6rem;
   img {
-    height: 70px;
+    height: 5rem;
   }
   .icon {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 5rem;
+    margin-right: 4rem;
     h3 {
       display: block;
       text-align: center;
-      margin-top: 10px;
+      margin-top: 1rem;
+      max-width: 10rem;
     }
   }
 `;
 
-export default ServicesSection;
+export default TechnologiesSection;

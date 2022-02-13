@@ -15,7 +15,7 @@ const AboutSection = () => {
           </Hide>
           <Hide>
             <motion.h2 variants={titleAnim}>
-            <span>  Web Developer</span>
+            <span>Web Developer</span>
             </motion.h2>
           </Hide>
           <Hide>
@@ -34,7 +34,5 @@ const AboutSection = () => {
     </About>
   );
 };
-
-//Styled Components
 
 export default AboutSection;
