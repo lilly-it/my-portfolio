@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/my-portfolio/static/js/main.6329088a.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.6329088a.chunk.js.map",
+    "main.js": "/my-portfolio/static/js/main.530afd88.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.530afd88.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.8b00eace.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.8b00eace.js.map",
-    "static/js/2.5413f019.chunk.js": "/my-portfolio/static/js/2.5413f019.chunk.js",
-    "static/js/2.5413f019.chunk.js.map": "/my-portfolio/static/js/2.5413f019.chunk.js.map",
+    "static/js/2.47afd248.chunk.js": "/my-portfolio/static/js/2.47afd248.chunk.js",
+    "static/js/2.47afd248.chunk.js.map": "/my-portfolio/static/js/2.47afd248.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.98226b2ee5e7f75a4094fe777d69baa3.js": "/my-portfolio/precache-manifest.98226b2ee5e7f75a4094fe777d69baa3.js",
+    "precache-manifest.4ce44296f759e3c078d4cb14b111b94f.js": "/my-portfolio/precache-manifest.4ce44296f759e3c078d4cb14b111b94f.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
-    "static/js/2.5413f019.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.5413f019.chunk.js.LICENSE.txt",
+    "static/js/2.47afd248.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.47afd248.chunk.js.LICENSE.txt",
     "static/media/123.jpg": "/my-portfolio/static/media/123.37df2be3.jpg",
     "static/media/8678.jpg": "/my-portfolio/static/media/8678.a1d2ff7b.jpg",
     "static/media/adaptability.svg": "/my-portfolio/static/media/adaptability.ff49f2b7.svg",
@@ -18,15 +18,16 @@
     "static/media/creativeness.svg": "/my-portfolio/static/media/creativeness.d3c3847f.svg",
     "static/media/devblogs.png": "/my-portfolio/static/media/devblogs.8d4cfefd.png",
     "static/media/devblogs2.png": "/my-portfolio/static/media/devblogs2.d0a2f9c9.png",
-    "static/media/diaphragm.svg": "/my-portfolio/static/media/diaphragm.f6204831.svg",
     "static/media/efficiency.svg": "/my-portfolio/static/media/efficiency.3ec6fe5b.svg",
     "static/media/es6.svg": "/my-portfolio/static/media/es6.1136cf89.svg",
+    "static/media/framer-motion.svg": "/my-portfolio/static/media/framer-motion.4e138b94.svg",
     "static/media/gamefinder.png": "/my-portfolio/static/media/gamefinder.ff96bb21.png",
     "static/media/gamefinder2.png": "/my-portfolio/static/media/gamefinder2.cab6dc5a.png",
     "static/media/git-icon.svg": "/my-portfolio/static/media/git-icon.3b50cd7b.svg",
     "static/media/html.svg": "/my-portfolio/static/media/html.d95c5a44.svg",
     "static/media/javascript.svg": "/my-portfolio/static/media/javascript.0f7de9f1.svg",
-    "static/media/money.svg": "/my-portfolio/static/media/money.d1749735.svg",
+    "static/media/my-portfolio.png": "/my-portfolio/static/media/my-portfolio.9527776e.png",
+    "static/media/my-portfolio2.png": "/my-portfolio/static/media/my-portfolio2.145b1fac.png",
     "static/media/nextjs.svg": "/my-portfolio/static/media/nextjs.1d7ab179.svg",
     "static/media/problem-solving.svg": "/my-portfolio/static/media/problem-solving.f656803a.svg",
     "static/media/react.svg": "/my-portfolio/static/media/react.ee3642c3.svg",
@@ -38,11 +39,12 @@
     "static/media/stress.svg": "/my-portfolio/static/media/stress.01aa9e4f.svg",
     "static/media/styled-components.png": "/my-portfolio/static/media/styled-components.924041ba.png",
     "static/media/tailwindcss-icon.svg": "/my-portfolio/static/media/tailwindcss-icon.83be84f1.svg",
-    "static/media/teamwork.svg": "/my-portfolio/static/media/teamwork.8c795ad5.svg"
+    "static/media/teamwork.svg": "/my-portfolio/static/media/teamwork.8c795ad5.svg",
+    "static/media/vercel.svg": "/my-portfolio/static/media/vercel.b747ac5e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8b00eace.js",
-    "static/js/2.5413f019.chunk.js",
-    "static/js/main.6329088a.chunk.js"
+    "static/js/2.47afd248.chunk.js",
+    "static/js/main.530afd88.chunk.js"
   ]
 }
