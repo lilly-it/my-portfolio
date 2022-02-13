@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32beb25b890ce21614cab0dec8f880e7",
+    "revision": "0fd8f1659fc11902272441b76ba621b2",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "178ee8078bca9beffedd",
-    "url": "/my-portfolio/static/js/2.cc49f0f6.chunk.js"
+    "revision": "efd0fd59d2e42c070986",
+    "url": "/my-portfolio/static/js/2.5413f019.chunk.js"
   },
   {
     "revision": "aa4100970f46d7e0ec2af84de3f2740b",
-    "url": "/my-portfolio/static/js/2.cc49f0f6.chunk.js.LICENSE.txt"
+    "url": "/my-portfolio/static/js/2.5413f019.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cea318609d0aa83ad5ec",
-    "url": "/my-portfolio/static/js/main.20038942.chunk.js"
+    "revision": "a6fa0c629f7687bab065",
+    "url": "/my-portfolio/static/js/main.6329088a.chunk.js"
   },
   {
     "revision": "f241adf7bba56ceeeb82",
@@ -44,6 +44,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/creativeness.d3c3847f.svg"
   },
   {
+    "revision": "8d4cfefdae71e7500e97ab1925f5c57b",
+    "url": "/my-portfolio/static/media/devblogs.8d4cfefd.png"
+  },
+  {
+    "revision": "d0a2f9c95daaf76c9853b88545050dbb",
+    "url": "/my-portfolio/static/media/devblogs2.d0a2f9c9.png"
+  },
+  {
     "revision": "f620483184a3efa896127ee80cab531c",
     "url": "/my-portfolio/static/media/diaphragm.f6204831.svg"
   },
@@ -56,20 +64,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/es6.1136cf89.svg"
   },
   {
-    "revision": "b77811b785e85dc2db23b0b169f2bf53",
-    "url": "/my-portfolio/static/media/eth.b77811b7.png"
+    "revision": "ff96bb211389cf23c6a444a9bbae8bd2",
+    "url": "/my-portfolio/static/media/gamefinder.ff96bb21.png"
   },
   {
-    "revision": "e9ec51ee2dde6f478d602060bf769327",
-    "url": "/my-portfolio/static/media/figma.e9ec51ee.svg"
+    "revision": "cab6dc5ae4e7334a98386da555b08afd",
+    "url": "/my-portfolio/static/media/gamefinder2.cab6dc5a.png"
   },
   {
     "revision": "3b50cd7b050fcc6720f79acb376392ee",
     "url": "/my-portfolio/static/media/git-icon.3b50cd7b.svg"
   },
   {
-    "revision": "169a9b3ae8eff8e916dc7711c7546c64",
-    "url": "/my-portfolio/static/media/goodtimes-small.169a9b3a.png"
+    "revision": "d95c5a44fc50bcfdb9b01cf1fb9af1d1",
+    "url": "/my-portfolio/static/media/html.d95c5a44.svg"
   },
   {
     "revision": "0f7de9f1ea98c8d8e5f6f06632d0dcc7",
@@ -82,10 +90,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1d7ab1799a3ddefc10c5a8878a49873a",
     "url": "/my-portfolio/static/media/nextjs.1d7ab179.svg"
-  },
-  {
-    "revision": "4d2e61452b5d7e1be0f8d25acef0c1f1",
-    "url": "/my-portfolio/static/media/nodejs.4d2e6145.svg"
   },
   {
     "revision": "f656803a4f73383b091048920b7d20ae",
@@ -112,16 +116,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/soul-sound.26ec8e1f.png"
   },
   {
-    "revision": "f2c8fcae1da95fdba06d25a3bf953e36",
-    "url": "/my-portfolio/static/media/soul-sound2.f2c8fcae.png"
+    "revision": "01cc8a1089f4ad59094d3b89073ed324",
+    "url": "/my-portfolio/static/media/soul-sound2.01cc8a10.png"
   },
   {
     "revision": "01aa9e4f91047f6d13a124ec94bf19ff",
     "url": "/my-portfolio/static/media/stress.01aa9e4f.svg"
   },
   {
-    "revision": "2413e92520ffaeb5bea3575fbd63224a",
-    "url": "/my-portfolio/static/media/tailwindcss-icon.2413e925.svg"
+    "revision": "924041bae5660c7121442b7f29801c17",
+    "url": "/my-portfolio/static/media/styled-components.924041ba.png"
+  },
+  {
+    "revision": "83be84f18be842cc8bf533ffcbfb4a0b",
+    "url": "/my-portfolio/static/media/tailwindcss-icon.83be84f1.svg"
   },
   {
     "revision": "8c795ad57e55b06d76b8a73b27a13fd1",
