@@ -1,11 +1,18 @@
 import React from "react";
-import home1 from "../img/123.jpg";
+import myPhoto from "../img/my-photo.jpg";
 import { About, Description, Image, Hide } from "../styles";
 import { motion } from "framer-motion";
 import { titleAnim, fade, photoAnim } from "../animation";
 import Wave from "./Wave";
+import { useHistory } from "react-router-dom";
 
 const AboutSection = () => {
+  const history = useHistory();
+
+  const goToContact = () => {
+    history.push("/contact");
+  };
+
   return (
     <About>
       <Description>
@@ -15,7 +22,7 @@ const AboutSection = () => {
           </Hide>
           <Hide>
             <motion.h2 variants={titleAnim}>
-            <span>Web Developer</span>
+              <span>Web Developer</span>
             </motion.h2>
           </Hide>
           <Hide>
@@ -25,10 +32,12 @@ const AboutSection = () => {
         <motion.p variants={fade}>
           Interesting in working together? Let's have a talk.
         </motion.p>
-        <motion.button variants={fade}>Contact me</motion.button>
+        <motion.button variants={fade} onClick={() => goToContact()}>
+          Contact me
+        </motion.button>
       </Description>
       <Image>
-        <motion.img variants={photoAnim} src={home1} alt="my photo" />
+        <motion.img variants={photoAnim} src={myPhoto} alt="my photo" />
       </Image>
       <Wave />
     </About>

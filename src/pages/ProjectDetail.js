@@ -15,7 +15,6 @@ const ProjectDetail = () => {
     const currentProject = projects.filter(
       (stateProject) => stateProject.url === url
     );
-    console.log(currentProject);
     setProject(currentProject[0]);
   }, [projects, url]);
 
@@ -40,7 +39,7 @@ const ProjectDetail = () => {
                 className="preview"
                 alt="project"
               />
-              <div>
+              <div className="wrapper">
                 <Info>
                   <button
                     className="site button"
@@ -58,7 +57,7 @@ const ProjectDetail = () => {
                 </div>
                 <div className="flex-wrap">
                   {project.technologies.map((technology) => (
-                    <Card>
+                    <Card key={technology.name}>
                       <div className="icon">
                         <img alt="icon" src={technology.icon} />
                         <h3>{technology.name}</h3>
@@ -93,27 +92,62 @@ const HeadLine = styled.div`
   .preview {
     object-fit: cover;
     object-position: left;
-    width: 50vw;
     height: 70vh;
     margin: 0rem 2.5rem;
+    border: 1px solid grey;
   }
-
   .text {
     font-size: 1.2rem;
-    width: 90%;
+    width: 80%;
     line-height: 1.9;
     padding-bottom: 3rem;
     white-space: pre-wrap;
   }
   .title {
     font-size: 1.4rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
   }
   h2 {
     position: absolute;
     top: 10%;
     left: 50%;
     transform: translate(-50%, -10%);
+  }
+  @media (max-width: 1300px) {
+    padding-top: 30vh;
+    .flex {
+      flex-wrap: wrap;
+    }
+    .preview {
+      margin: 0 auto;
+      object-fit: scale-down;
+    }
+    .wrapper {
+      margin: 0 auto;
+      max-width: 50rem;
+    }
+    .text {
+      margin: 0 auto;
+      max-width: 50rem;
+    }
+    .site {
+      margin-left: 3rem;
+    }
+    .button {
+      margin-top: 2rem;
+    }
+  }
+  @media (max-width: 750px) {
+    padding-top: 10vh;
+    .preview {
+      margin: 0 auto;
+      object-fit: scale-down;
+      max-height: 25rem;
+    }
+    h2 {
+      top: 2%;
+      font-size: 2.7rem;
+    }
   }
 `;
 const Info = styled.div`
@@ -137,12 +171,13 @@ const Card = styled.div`
     flex-direction: column;
     align-items: center;
     width: 4rem;
-    margin-right: 2rem;
+    margin-right: 3rem;
     h3 {
       display: block;
       text-align: center;
       font-size: 1rem;
       margin-top: 0.5rem;
+      margin-bottom: 1rem;
     }
   }
 `;

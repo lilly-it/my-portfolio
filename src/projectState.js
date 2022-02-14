@@ -17,6 +17,7 @@ import myPortfolio2 from "./img/my-portfolio2.png";
 import framerMotion from "./img/framer-motion.svg";
 import vercel from "./img/vercel.svg";
 import git from "./img/git-icon.svg";
+import reactRouter from "./img/react-router.svg";
 
 export const ProjectState = () => {
   return [
@@ -64,7 +65,6 @@ export const ProjectState = () => {
         { name: "NextJS", icon: nextjs },
         { name: "React", icon: react },
         { name: "Javascript", icon: javascript },
-        { name: "ES6", icon: es6 },
         { name: "TailwindCSS", icon: tailwindCSS },
         { name: "Vercel", icon: vercel },
         { name: "Git", icon: git },
@@ -85,6 +85,7 @@ export const ProjectState = () => {
         { name: "ES6", icon: es6 },
         { name: "Framer Motion", icon: framerMotion },
         { name: "Styled Components", icon: styledComponents },
+        { name: "React Router", icon: reactRouter },
         { name: "Git", icon: git },
       ],
       description:

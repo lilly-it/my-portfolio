@@ -9,7 +9,7 @@ import nextjs from "../img/nextjs.svg";
 import sass from "../img/sass.svg";
 import html from "../img/html.svg";
 import styledComponents from "../img/styled-components.png";
-import home2 from "../img/8678.jpg";
+import desk from "../img/desk.jpg";
 import { About, Description, Image } from "../styles";
 import styled from "styled-components";
 import { scrollReveal } from "../animation";
@@ -48,7 +48,7 @@ const TechnologiesSection = () => {
           <Cards>
             <div className="wrapper">
               {technologies1.map((technology) => (
-                <Card>
+                <Card key={technology.name}>
                   <div className="icon">
                     <img alt="icon" src={technology.img} />
                     <h3>{technology.name}</h3>
@@ -58,7 +58,7 @@ const TechnologiesSection = () => {
             </div>
             <div className="wrapper">
               {technologies2.map((technology) => (
-                <Card>
+                <Card key={technology.name}>
                   <div className="icon">
                     <img alt="icon" src={technology.img} />
                     <h3>{technology.name}</h3>
@@ -69,7 +69,7 @@ const TechnologiesSection = () => {
           </Cards>
         </Description>
         <Image>
-          <img alt="working desk" src={home2} />
+          <img alt="working desk" src={desk} />
         </Image>
       </Services>
     </>
